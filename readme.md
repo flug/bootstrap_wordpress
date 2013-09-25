@@ -4,6 +4,17 @@
 
 A starer theme for Wordpress that uses the 1140 Grid System and Sass.
 
+#### Features:
+
+* Uses Sass
+* Basic Shortcodes included
+* Simple index layout
+* Uses the 1140 Grid System
+* Portfolio page type
+* Recent Portfolio Widget
+
+
+
 ## Usage:
 Upload as a new theme into Wordpress and begin development.
 
