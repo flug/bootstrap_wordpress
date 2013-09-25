@@ -1,0 +1,26 @@
+/**************************************
+*
+* Shortcodes styles
+*
+***************************************/
+/**************************************
+*
+* Buttons styles
+*
+***************************************/
+/* line 16, ../sass/shortcodes.scss */
+button {
+  font-family: inherit;
+}
+
+/**************************************
+*
+* Micellaneous styles
+*
+***************************************/
+/* line 40, ../sass/shortcodes.scss */
+.tt-shortcode {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: justify;
+}

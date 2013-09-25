@@ -1,0 +1,39 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@impot "compass/reset";
+/* Typography ---------------------------------------------- */
+/* Colours ---------------------------------------------- */
+/* Custom Mixins ---------------------------------------------- */
+/* line 12, ../sass/screen 2.scss */
+body {
+  font: 14px/22px "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+/* line 16, ../sass/screen 2.scss */
+header {
+  margin-bottom: 50px;
+}
+
+/* line 20, ../sass/screen 2.scss */
+a {
+  color: #333333;
+  text-decoration: none;
+  -webkit-transition: 0.12s;
+  -moz-transition: 0.12s;
+  -o-transition: 0.12s;
+  transition: 0.12s;
+}
+/* line 25, ../sass/screen 2.scss */
+a:hover {
+  opacity: 0.8;
+  color: red;
+}
+
+/* line 31, ../sass/screen 2.scss */
+.tt-shortcode {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: justify;
+}

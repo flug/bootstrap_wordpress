@@ -1,0 +1,14 @@
+/*
+Theme Name: Custom Blog
+Theme URI: www.lukehayes.me
+Description: Custom
+Version: 1.0
+Author: Luke Hayes
+Author URI: Luke Hayes
+*/
+
+/*@import "css/reset.css";*/
+@import "css/typography.css";
+@import "css/layout.css";
+
+@import "stylesheets/screen.css";

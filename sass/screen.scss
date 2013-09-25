@@ -1,0 +1,98 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "includes";
+
+// ****************************
+// Global Styles
+// ****************************
+
+body {
+	font: $font;
+}
+
+header {
+	margin-bottom: 50px;
+}
+
+a {
+	color: $black;
+	text-decoration: none;
+	@include transition(0.12s);
+
+	&:hover {
+		opacity: 0.8;
+		color: red;
+	}
+}
+
+
+
+
+// ****************************
+// Header Styles
+// ****************************
+
+
+
+
+
+// ****************************
+// Post Styles
+// ****************************
+
+
+
+
+
+// ****************************
+// Post Single Styles
+// ****************************
+
+
+
+
+
+// ****************************
+// Comments Styles
+// ****************************
+
+
+
+
+
+
+// ****************************
+// Archive Styles
+// ****************************
+
+
+
+
+// ****************************
+// Footer Styles
+// ****************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
