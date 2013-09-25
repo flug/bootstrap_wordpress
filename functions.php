@@ -35,4 +35,35 @@
 
 
 
+/* ******************************************
+	Silly 404 Excuse
+*********************************************/
+
+function exclamation() {
+
+	$excuse_array = ['By the hammer of Thor!','Well bake my potatoes!','By Jango!','Twist my nipple nuts and send me to Alaska'];
+	$array_size = count($excuse_array) -1;
+	$random_number = rand(0,$array_size);
+
+	echo $excuse_array[$random_number];
+}
+
+function exclamation_descrtiption() {
+
+	$excuse_array = ['By the hammer of Thor!','Well bake my potatoes!','By Jango!','Twist my nipple nuts and send me to Alaska'];
+	$array_size = count($excuse_array) -1;
+	$random_number = rand(0,$array_size);
+
+	echo $excuse_array[$random_number];
+}
+
+
+
+
+
+
+
+
+
+
 ?>
