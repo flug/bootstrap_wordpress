@@ -1,15 +1,15 @@
-#Blank Wordpress Framework/Theme
+#Bootstrap Wordpress Framework/Theme
 
 ###### This Framework is still in development!
 
-A starer theme for Wordpress that uses the 1140 Grid System and Sass.
+A starer theme for Wordpress that uses Bootstrap 3.0 with Sass.
 
 #### Features:
 
+* Uses Bootstrap 3.0
 * Uses Sass
 * Basic Shortcodes included
 * Simple index layout
-* Uses the 1140 Grid System
 * Portfolio page type
 * Recent Portfolio Widget
 
