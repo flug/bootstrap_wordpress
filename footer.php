@@ -3,7 +3,9 @@
 <?php wp_footer(); ?>
 
 <!-- Load Custom JS Here -->
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/sass-bootstrap.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/main.js"></script>
+
 
 
 <!-- Live reload JS - remove at deploy -->
