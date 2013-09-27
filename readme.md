@@ -14,11 +14,7 @@ A starer theme for Wordpress that uses Bootstrap 3.0 with Sass.
 * Seperate CSS files for typography, shortcodes and theme specific styles
 * Portfolio page type
 * Recent Portfolio Widget
-* Recent Portfolio Widget
-* Recent Portfolio Widget
-* Recent Portfolio Widget
-* Recent Portfolio Widget
-* Recent Portfolio Widget
+
 
 
 
