@@ -19,19 +19,6 @@ header {
   margin-bottom: 50px;
 }
 
-a {
-  color: #333333;
-  text-decoration: none;
-  -webkit-transition: 0.12s;
-  -moz-transition: 0.12s;
-  -o-transition: 0.12s;
-  transition: 0.12s;
-}
-a:hover {
-  opacity: 0.8;
-  color: red;
-}
-
 /**************************************
 *
 * Header styles

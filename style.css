@@ -8,7 +8,6 @@ Author URI: Luke Hayes
 */
 
 
-
-/*@import "bootstrap/css/sass-bootstrap.css";*/
-
+@import "stylesheets/typography.css";
+@import "stylesheets/shortcode.css";
 @import "stylesheets/screen.css";

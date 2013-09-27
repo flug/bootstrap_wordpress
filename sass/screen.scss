@@ -19,16 +19,6 @@ header {
 	margin-bottom: 50px;
 }
 
-a {
-	color: $black;
-	text-decoration: none;
-	@include transition(0.12s);
-
-	&:hover {
-		opacity: 0.8;
-		color: red;
-	}
-}
 
 
 
