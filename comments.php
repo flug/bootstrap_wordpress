@@ -72,7 +72,7 @@
 
 	<p class="clearfix"><label for="author">Name <?php if ($req) echo "<span>*</span>"; ?></label> <input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" tabindex="1" /></p>
 
-	<p class="clearfix"><label for="email">Email<?php if ($req) echo "<span>*</span>"; ?>)</label> <input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" tabindex="2" /></p>
+	<p class="clearfix"><label for="email">Email<?php if ($req) echo "<span>*</span>"; ?></label> <input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" tabindex="2" /></p>
 
 <?php endif; ?>
 
