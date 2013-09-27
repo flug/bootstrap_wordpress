@@ -6,11 +6,8 @@
 
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />	
 	<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats please -->
-
-	<!-- 1140px Grid styles for IE -->
-	<!--[if lte IE 9]><link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/ie.css" type="text/css" media="screen" /><![endif]-->
 	
-	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<!-- Sass Bootstrap 3.0 -->
 	<link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/sass-bootstrap.css" type="text/css" media="screen" />
 
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
