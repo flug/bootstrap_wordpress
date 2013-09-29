@@ -18,6 +18,21 @@
 
 
 /* ******************************************
+	Define Header/Main menu area
+*********************************************/
+
+	register_nav_menu('header_menu','The menu for the header/main menu of the website.');
+
+/* ******************************************
+	Register the apperaence menus
+*********************************************/
+
+	// add_theme_support('menu');
+
+
+
+
+/* ******************************************
 	Add Featured Image Support
 *********************************************/
 
@@ -56,8 +71,6 @@ function exclamation_descrtiption() {
 
 	echo $excuse_array[$random_number];
 }
-
-
 
 
 
