@@ -6,8 +6,6 @@
 
 	<?php $post_format = get_post_format(); ?>	
 
-	<?php echo $post_format; ?>
-
 
 	<?php if (has_post_format( $post_format)): ?>
 		
