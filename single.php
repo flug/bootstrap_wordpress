@@ -8,11 +8,11 @@
 
 	<?php if (has_post_format( $post_format)): ?>
 		
-		<?php get_template_part( 'index-'.$post_format ); ?>
+		<?php get_template_part( 'single-'.$post_format ); ?>
 
 	<?php else: ?>
 
-		<?php get_template_part('index-standard'); ?>
+		<?php get_template_part('single-standard'); ?>
 		
 	<?php endif ?>
 
