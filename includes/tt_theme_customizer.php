@@ -4,6 +4,11 @@
 function tt_theme_customizer_settings( $wp_customize ) {
 
 
+/**************************************
+*
+* 	Header Background Colour
+*
+***************************************/
 
 
 	$wp_customize->add_setting( 'header_textcolor' , array(
@@ -24,6 +29,11 @@ function tt_theme_customizer_settings( $wp_customize ) {
 	) ) );
 
 
+/**************************************
+*
+*	Body Background Colour
+*
+***************************************/
 
 
 	
