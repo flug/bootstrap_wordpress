@@ -6,85 +6,47 @@
 **/
 
 function one_third( $atts, $content = null ) {
-   return '<div class="tt-shortcode fourcol">' . do_shortcode($content) . '</div>';
+   return '<div class="tt-shortcode col-md-4">' . do_shortcode($content) . '</div>';
 }
 add_shortcode('one_third', 'one_third');
 
-function one_third_last( $atts, $content = null ) {
-   return '<div class="tt-shortcode fourcol last">' . do_shortcode($content) . '</div><div class="tt-shortcode clear"></div>';
-}
-add_shortcode('one_third_last', 'one_third_last');
-
 function two_thirds( $atts, $content = null ) {
-   return '<div class="tt-shortcode eightcol ">' . do_shortcode($content) . '</div>';
+   return '<div class="tt-shortcode col-md-8 ">' . do_shortcode($content) . '</div>';
 }
 add_shortcode('two_thirds', 'two_thirds');
-
-function two_thirds_last( $atts, $content = null ) {
-   return '<div class="tt-shortcode eightcol last">' . do_shortcode($content) . '</div><div class="tt-shortcode clear"></div>';
-}
-add_shortcode('two_thirds_last', 'two_thirds_last');
 
 // 1-4 col 
 
 function one_half( $atts, $content = null ) {
-   return '<div class="tt-shortcode sixcol">' . do_shortcode($content) . '</div>';
+   return '<div class="tt-shortcode col-md-6">' . do_shortcode($content) . '</div>';
 }
 add_shortcode('one_half', 'one_half');
 
 
-function one_half_last( $atts, $content = null ) {
-   return '<div class="tt-shortcode sixcol last">' . do_shortcode($content) . '</div><div class="tt-shortcode clear"></div>';
-}
-add_shortcode('one_half_last', 'one_half_last');
-
-
 function one_fourth( $atts, $content = null ) {
-   return '<div class="tt-shortcode threecol">' . do_shortcode($content) . '</div>';
+   return '<div class="tt-shortcode col-md-3">' . do_shortcode($content) . '</div>';
 }
 add_shortcode('one_fourth', 'one_fourth');
 
 
-function one_fourth_last( $atts, $content = null ) {
-   return '<div class="tt-shortcode threecol last">' . do_shortcode($content) . '</div><div class="tt-shortcode clear"></div>';
-}
-add_shortcode('one_fourth_last', 'one_fourth_last');
-
 function three_fourths( $atts, $content = null ) {
-   return '<div class="tt-shortcode ninecol">' . do_shortcode($content) . '</div>';
+   return '<div class="tt-shortcode col-md-9">' . do_shortcode($content) . '</div>';
 }
 add_shortcode('three_fourths', 'three_fourths');
-
-
-function three_fourths_last( $atts, $content = null ) {
-   return '<div class="tt-shortcode ninecol last">' . do_shortcode($content) . '</div><div class="tt-shortcode clear"></div>';
-}
-add_shortcode('three_fourths_last', 'three_fourths_last');
-
 
 // 1-6 col 
 
 // one_sixth
 function one_sixth( $atts, $content = null ) {
-   return '<div class="tt-shortcode twocol">' . do_shortcode($content) . '</div>';
+   return '<div class="tt-shortcode col-md-2">' . do_shortcode($content) . '</div>';
 }
 add_shortcode('one_sixth', 'one_sixth');
 
-function one_sixth_last( $atts, $content = null ) {
-   return '<div class="tt-shortcode twocol last">' . do_shortcode($content) . '</div><div class="tt-shortcode clear"></div>';
-}
-add_shortcode('one_sixth_last', 'one_sixth_last');
-
 // five_sixth
 function five_sixth( $atts, $content = null ) {
-   return '<div class="tt-shortcode tencol">' . do_shortcode($content) . '</div>';
+   return '<div class="tt-shortcode col-md-10">' . do_shortcode($content) . '</div>';
 }
 add_shortcode('five_sixth', 'five_sixth');
-
-function five_sixth_last( $atts, $content = null ) {
-   return '<div class="tt-shortcode tencol last">' . do_shortcode($content) . '</div><div class="tt-shortcode clear"></div>';
-}
-add_shortcode('five_sixth_last', 'five_sixth_last');
 
 
 // Callouts
