@@ -20,7 +20,6 @@
 
 
 
-
 	<?php endwhile; else : ?>
 
 	<div class="post">
