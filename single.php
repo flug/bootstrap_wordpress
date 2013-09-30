@@ -1,19 +1,21 @@
 <?php get_header(); ?>
 
 
-
 	<?php while(have_posts()) : the_post(); ?>
 
-		<article class="post" id="<?php the_ID(); ?>">
+	<?php $post_format = get_post_format(); ?>	
+
+
+	<?php if (has_post_format( $post_format)): ?>
 		
-			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-			
-			<div class="entry">
-				<?php the_content(); ?>
-			</div>
+		<?php get_template_part( 'index-'.$post_format ); ?>
+
+	<?php else: ?>
+
+		<?php get_template_part('index-standard'); ?>
 		
-		</article> <!-- .post -->
-		
+	<?php endif ?>
+
 		<div id="comment-area">
 			<?php comments_template(); ?>
 		</div>
