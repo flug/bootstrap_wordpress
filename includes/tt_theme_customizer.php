@@ -56,22 +56,50 @@ function tt_theme_customizer_settings( $wp_customize ) {
 
 
 
+/**************************************
+*
+*	Paragraph Colour
+*
+***************************************/
+
+
+	
+	$wp_customize->add_setting( 'paragraph_colour' , array(
+	    'default'     => '#111',
+	    'transport'   => 'refresh',
+	) );
+
+
+	$wp_customize->add_section( 'paragraph_colour_section' , array(
+	    'title'      => __( 'Paragraph Color', 'mccallister' ),
+	    'priority'   => 30,
+	) );
+
+	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'paragraph_colour', array(
+		'label'        => __( 'Paragraph Colour', 'mccallister' ),
+		'section'    => 'paragraph_colour_section',
+		'settings'   => 'paragraph_colour',
+	) ) );
+
+
+
 }
 
 add_action( 'customize_register', 'tt_theme_customizer_settings' );
 
 
-	function tt_theme_customizer_styles()
+function tt_theme_customizer_styles()
 	{
 	    ?>
 	         <style type="text/css">
 	             body { background-color:<?php echo get_theme_mod('body_background_color'); ?>; }
 	             header { background-color:<?php echo "#". get_theme_mod('header_textcolor'); ?>; }
+	             p 		{ color:<?php echo get_theme_mod('paragraph_colour'); ?>; }
 	         </style>
 	    <?php
 	}
 
-	add_action( 'wp_head', 'tt_theme_customizer_styles');
+add_action( 'wp_head', 'tt_theme_customizer_styles');
 
 
 
