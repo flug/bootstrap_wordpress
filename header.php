@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head profile="http://gmpg.org/xfn/11">
 
 	<title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
