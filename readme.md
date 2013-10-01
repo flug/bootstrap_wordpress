@@ -11,9 +11,12 @@ A starer theme for Wordpress that uses Bootstrap 3.0 with Sass.
 * Basic Shortcodes included
 * Simple index layout
 * Index-{POST TYPE} files included
+* Corresponding single-{POST TYPE} files included
+* Support for the Wordpress Theme Customizer (Basic atm but will improve)
 * Seperate CSS files for typography, shortcodes and theme specific styles
 * Portfolio page type
 * Recent Portfolio Widget
+
 
 
 
