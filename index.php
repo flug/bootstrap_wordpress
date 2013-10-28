@@ -4,20 +4,27 @@
 		
 	<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
-	<?php $post_format = get_post_format(); ?>	
+		<?php $post_format = get_post_format(); ?>	
 
 
-	<?php if (has_post_format( $post_format)): ?>
+		<?php if (has_post_format( $post_format)): ?>
 		
-		<?php get_template_part( 'index-'.$post_format ); ?>
+			<?php get_template_part( 'format-'.$post_format ); ?>
 
-	<?php else: ?>
+		<?php else: ?>
 
-		<?php get_template_part('index-standard'); ?>
+			<?php get_template_part('format-standard'); ?>
 		
-	<?php endif ?>
+		<?php endif ?>
 
 
+		<?php if (is_single()): ?>
+		
+			<div class="comments-area">
+				<?php comments_template(); ?>
+			</div>
+
+		<?php endif ?>
 
 
 	<?php endwhile; else : ?>
