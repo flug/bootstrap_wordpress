@@ -8,10 +8,10 @@
 *********************************************/
 
 
-	include('includes/post_format_meta_boxes.php');
-	include('includes/custom_post_types.php');
-	include('includes/recent_portfolio_widget.php');
-	include('includes/shortcodes.php');
+	include('includes/themetacular/post_format_meta_boxes.php');
+	include('includes/themetacular/custom_post_types.php');
+	include('includes/themetacular/recent_portfolio_widget.php');
+	include('includes/themetacular/shortcodes.php');
 
 
 
@@ -23,6 +23,12 @@ function themetacular_load_js() {
 
 	// Load jQuery
 	wp_enqueue_script('jquery');
+
+	//Custom JS
+	wp_enqueue_script('custom_js', get_template_directory_uri() . '/includes/js/custom.js', false, false , true);
+
+	//Custom Boostrap JS
+	wp_enqueue_script('bootstrap_js', get_template_directory_uri() . '/includes/js/sass-bootstrap.min.js', false, false , true);
 }
 
 
