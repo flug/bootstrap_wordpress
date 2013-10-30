@@ -31,6 +31,8 @@ function themetacular_load_js() {
 	wp_enqueue_script('bootstrap_js', get_template_directory_uri() . '/includes/js/sass-bootstrap.min.js', false, false , true);
 }
 
+add_action('wp_enqueue_script','themetacular_load_js');
+
 
 
 
