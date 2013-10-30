@@ -15,9 +15,6 @@
 	
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-	<!-- Load Jquery into Wordpress -->
-	<?php wp_enqueue_script('jquery'); ?>
-
 	<?php wp_head(); ?>
 
 
