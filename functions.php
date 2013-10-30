@@ -3,7 +3,6 @@
 /* A file for the functions */
 
 
-
 /* ******************************************
 	Include all of the custom functionality
 *********************************************/
@@ -13,6 +12,18 @@
 	include('includes/custom_post_types.php');
 	include('includes/recent_portfolio_widget.php');
 	include('includes/shortcodes.php');
+
+
+
+/* ******************************************
+	Load all javascipt files
+*********************************************/
+
+function themetacular_load_js() {
+
+	// Load jQuery
+	wp_enqueue_script('jquery');
+}
 
 
 
