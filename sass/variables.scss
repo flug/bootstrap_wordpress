@@ -1,0 +1,38 @@
+@impot  "compass/reset";
+@import "compass/css3";
+
+
+
+/* Typography ---------------------------------------------- */
+
+$font: 14px/22px "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+
+
+
+
+
+
+
+
+/* Colours ---------------------------------------------- */
+
+$black: #333;
+$white: #FFF;
+$light-grey: #f7f7f7;
+$dark-grey: #BBB;
+
+
+
+
+/* Custom Mixins ---------------------------------------------- */
+
+@mixin post-width {
+	width: 90%;
+	margin: 0 auto;
+}
+
+@mixin letter-spacing {
+	letter-spacing: -0.08em;
+}
+
+
