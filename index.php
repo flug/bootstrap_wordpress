@@ -18,6 +18,7 @@
 		<?php endif ?>
 
 
+		<!-- Saves the need to use single.php files :) -->
 		<?php if (is_single()): ?>
 		
 			<div class="comments-area">
