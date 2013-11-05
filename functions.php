@@ -19,21 +19,24 @@
 	Load all javascipt files
 *********************************************/
 
+add_action('wp_enqueue_script','themetacular_load_js');
+
 function themetacular_load_js() {
 
-	// Load jQuery
-	wp_enqueue_script('jquery');
+	// // Load jQuery
+	// wp_enqueue_script('jquery');
 
 	//Custom JS
+	wp_register_script('custom_js', get_template_directory_uri() . '/includes/js/custom.js', false, false , true);
 	wp_enqueue_script('custom_js', get_template_directory_uri() . '/includes/js/custom.js', false, false , true);
 
 	//Custom Boostrap JS
-	wp_enqueue_script('bootstrap_js', get_template_directory_uri() . '/includes/js/sass-bootstrap.min.js', false, false , true);
+	wp_register_script('bootstrap_js', get_template_directory_uri() . '/includes/js/sass-bootstrap.min.js', false, false , false);
+	wp_enqueue_script('bootstrap_js', get_template_directory_uri() . '/includes/js/sass-bootstrap.min.js', false, false , false);
+
+	error_log( 'Something called me!' , 0 );
+
 }
-
-add_action('wp_enqueue_script','themetacular_load_js');
-
-
 
 
 /* ******************************************
