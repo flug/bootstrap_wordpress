@@ -24,11 +24,7 @@ add_action('wp_enqueue_scripts','themetacular_load_js');
 
 function themetacular_load_js() {
 
-	if (is_admin()) {
-		echo "It is admin";
-	}else {
-		echo "its not admin";
-	}
+	if (is_admin()) return;
 
 	// // Load jQuery
 	wp_enqueue_script('jquery');
