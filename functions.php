@@ -20,21 +20,23 @@
 	Load all javascipt files
 *********************************************/
 
-add_action('wp_enqueue_scripts','themetacular_load_js');
+add_action('wp_enqueue_scripts','themetacular_load_js'); 
 
 function themetacular_load_js() {
 
-	if (is_admin()) return;
+	if (is_admin()) {
+		echo "It is admin";
+	}else {
+		echo "its not admin";
+	}
 
 	// // Load jQuery
 	wp_enqueue_script('jquery');
 
 	//Custom Boostrap JS
-	wp_register_script('bootstrap_js', get_template_directory_uri() . '/includes/js/sass-bootstrap.min.js', false, false , false);
 	wp_enqueue_script('bootstrap_js', get_template_directory_uri() . '/includes/js/sass-bootstrap.min.js', false, false , false);
 
 	//Custom JS
-	// wp_register_script('custom_js', get_template_directory_uri() . '/includes/js/custom.js', false, false , true);
 	wp_enqueue_script('custom_js', get_template_directory_uri() . '/includes/js/custom.js', false, false , true);
 
 
