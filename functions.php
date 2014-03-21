@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /* A file for the functions */
 
@@ -20,7 +20,7 @@
 	Load all javascipt files
 *********************************************/
 
-add_action('wp_enqueue_scripts','themetacular_load_js'); 
+add_action('wp_enqueue_scripts','themetacular_load_js');
 
 function themetacular_load_js() {
 

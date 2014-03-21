@@ -21,7 +21,7 @@
 	<?php foreach ($comments as $comment) : ?>
 
 		<li <?php echo $oddcomment; ?>id="comment-<?php comment_ID() ?>">
-		
+
 			<span class='comment-avatar'><?php echo get_avatar( $comment, 32 ); ?></span>
 			<span class='comment-author-link'><?php comment_author_link() ?></span>
 			<span class='comment-approval'><?php if ($comment->comment_approved == '0') : echo "<em>Your comment is awaiting moderation.</em>"; endif; ?></span>
